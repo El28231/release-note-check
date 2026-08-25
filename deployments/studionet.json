@@ -1,0 +1,36 @@
+{
+  "network": "studionet",
+  "chain_id": 61999,
+  "rpc": "https://studio.genlayer.com/api",
+  "test_owner": "El28231",
+  "wallet_address": "0x1D201e53BeFC2955750313F5653006ba2F82d073",
+  "contract_address": "0x6F938f3De8b9c134AFEbF2bfbB22d255411e9815",
+  "transaction_hash": "0x4ddbce1525b73cf7313b2040e693e0c7f9c46e0848621eaf099331cc11761fc0",
+  "deployment": {
+    "final_status": "FINALIZED",
+    "execution_result": "SUCCESS"
+  },
+  "live_write": {
+    "transaction_hash": "0x998c397ed62d47506c0e1c4f0c7b384b7d910d28f1dae51abaedfd9baa2723a1",
+    "final_status": "FINALIZED",
+    "execution_result": "SUCCESS",
+    "observed_result": "coverage_mask=111"
+  },
+  "verification": {
+    "verified_on": "2026-08-25",
+    "live_nondeterministic_write": true,
+    "persisted_state_read": true,
+    "abi_policy_read": true,
+    "execution_success_asserted": true,
+    "wallet_owner_isolated": true
+  },
+  "source": {
+    "path": "contracts/release_note_check.py",
+    "sha256": "9b3b8b7c7c1cacd2f86b09042a7274e0f20edc749077e71a5f525445f7fb9ce7",
+    "genvm_runner": "py-genlayer:1jb45aa8ynh2a9c9xn3b7qqh8sm5q93hwfp7jqmwsfhh8jpz09h6"
+  },
+  "tooling": {
+    "genvm_linter": "0.11.0",
+    "genlayer_test": "0.29.2"
+  }
+}
